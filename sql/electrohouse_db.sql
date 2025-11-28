@@ -265,3 +265,4 @@ INNER JOIN dbo.Clientes c ON o.ClienteID = c.ClienteID
 INNER JOIN dbo.Productos p ON o.ProductoID = p.ProductoID
 ORDER BY o.OrdenID DESC;
 GO
+
